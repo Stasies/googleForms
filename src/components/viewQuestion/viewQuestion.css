@@ -1,0 +1,74 @@
+.user-answer,
+.user-input-short {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  height: 20px;
+  color: #202124;
+  outline: none;
+  border: none;
+  resize: none;
+  border-bottom: solid lightgrey;
+}
+.user-answer {
+  border-bottom-width: 2px;
+}
+.user-answer:focus {
+  border-bottom: 3px solid var(--dark-purple);
+}
+.user-input-short {
+  border-bottom-width: 1px;
+  width: 40%;
+}
+.user-input-short:focus {
+  border-bottom: 2px solid var(--dark-purple);
+}
+
+.radio-item {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.radio-item:hover {
+  background-color: #f0ebf86c;
+}
+.selected-range-item .menu-icon {
+  color: var(--dark-purple);
+}
+.selected-range-item:hover {
+  background-color: #e1d8f1bb;
+}
+
+.time-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.time-input-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.time-input {
+  border-bottom: 2px solid lightgrey;
+  width: 14px;
+}
+.time-input:focus {
+  border-color: var(--dark-purple);
+}
+
+.error-message {
+  font-size: 12.5px;
+  color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}

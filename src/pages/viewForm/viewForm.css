@@ -1,0 +1,72 @@
+.viewForm-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 70px;
+}
+.viewForm-wrapper {
+  min-width: 250px;
+  width: 640px;
+}
+.edit-icon-container {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 1000;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+  cursor: pointer;
+}
+.edit-icon {
+  color: var(--dark-purple);
+}
+.hint {
+  position: absolute;
+  background-color: var(--font-grey);
+  font-size: 10px;
+  top: 0;
+  min-width: 64px;
+  width: fit-content;
+  min-height: 22px;
+  height: fit-content;
+  color: white;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+.edit-icon-container:hover .hint {
+  top: -26px;
+  animation-duration: 0.2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    top: -10px;
+    width: 0px;
+    content: none;
+    opacity: 0;
+  }
+
+  to {
+    top: -26px;
+    content: initial;
+    opacity: 1;
+  }
+}
+.hint p {
+  padding: 2px;
+  margin: 0;
+}

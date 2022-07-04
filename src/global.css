@@ -1,0 +1,23 @@
+:root {
+  --dark-purple: rgb(103, 58, 183);
+  --light-background: #ede7f6;
+  --font-grey: #5f6368;
+  --background-grey: #f1f3f4;
+  --font-dark: #202124;
+  --blue: #4285f4;
+  --light-grey: rgba(0, 0, 0, 0.12);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+input {
+  border: none;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

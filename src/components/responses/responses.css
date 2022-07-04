@@ -1,0 +1,30 @@
+.resp-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.resp-wrapper {
+  min-width: 250px;
+  padding-bottom: 70px;
+  width: 770px;
+}
+
+.resp-description {
+  background-color: white;
+  height: 124px;
+  border-radius: 8px;
+  margin-top: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.resp-description-content {
+}
+.resp-container-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 36px;
+  color: var(--font-dark);
+  padding: 20px 24px 0;
+}
